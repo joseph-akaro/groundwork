@@ -4,7 +4,7 @@ Version 1.0 · May 2026
 
 ---
 
-## 1. Product overview
+## Product overview
 
 **Groundwork** is a phase-aware team operating system for founders building organizations from scratch. It combines a scaling roadmap, decision-making frameworks, org visualization, and meeting infrastructure into a single opinionated product — guiding a team from the founding moment through to 100+ people.
 
@@ -14,7 +14,7 @@ Unlike generic project management tools (Asana, Linear) or org chart software (C
 
 ---
 
-## 2. Problem statement
+## Problem statement
 
 Early-stage founders face a structural knowledge gap. They know how to build their product, but not how to build the organization that builds the product. The consequences are predictable:
 
@@ -29,7 +29,7 @@ Existing tools don't solve this. Org chart tools show structure but don't guide 
 
 ---
 
-## 3. Target user
+## Target user
 
 **Primary persona: The founding CEO/co-founder**
 - 1–30 person team, pre-Series B
@@ -46,7 +46,7 @@ Existing tools don't solve this. Org chart tools show structure but don't guide 
 
 ---
 
-## 4. Core value proposition
+## Core value proposition
 
 | Without Groundwork | With Groundwork |
 |---|---|
@@ -59,7 +59,7 @@ Existing tools don't solve this. Org chart tools show structure but don't guide 
 
 ---
 
-## 5. Core features
+## Core features
 
 ### 5.1 Scaling roadmap
 The backbone of the product. Four phases with objective trigger conditions:
@@ -73,42 +73,42 @@ The backbone of the product. Four phases with objective trigger conditions:
 
 Each phase unlocks new framework templates and checklists. Completed phases are archived and surfaced as context when patterns repeat.
 
-### 5.2 DACI decision log
+### DACI decision log
 - Create a decision with Driver, Approver, Contributors, Informed pre-filled
 - Status tracking: draft → in progress → decided
 - Searchable decision history with filter by owner or topic
 - Templates for common founding decisions (hiring, tooling, strategy, compensation)
 - Export to Notion, Confluence, or PDF
 
-### 5.3 DRI ownership table
+### DRI ownership table
 - List of company functions/areas mapped to a single named owner
 - Public within the team (shareable link)
 - Review prompt every 60 days
 - Gaps highlighted — areas with no DRI show as warnings
 - Auto-populated from org chart when a team member joins
 
-### 5.4 Org chart builder
+### Org chart builder
 - Manual input (drag-and-drop) or CSV import
 - Phase-aware: Phase 1 defaults to flat, Phase 2 shows functional areas
 - Each node links to the person's DRI areas
 - Export to PNG/SVG for decks
 - Scenario mode: plan a future org state without publishing it
 
-### 5.5 Meeting hub
+### Meeting hub
 - Three pre-built meeting templates (weekly all-hands, 1:1, monthly retro)
 - Agenda editor with phase-appropriate defaults
 - Meeting notes with auto-capture of decisions and action items
 - Action items sync to the task view
 - Calendar integration (Google Calendar, Outlook)
 
-### 5.6 Phase readiness check
+### Phase readiness check
 - Real-time dashboard of Phase 2 trigger conditions
 - Each condition shows current state vs. required threshold
 - "What changes when I advance" preview — shows which templates unlock
 - Founder must confirm readiness manually — no auto-advance
 - Sends a team notification when a phase transition is confirmed
 
-### 5.7 Frameworks library
+### Frameworks library
 Pre-built, editable templates for every framework in the product:
 - DACI decision log (Google Doc, Notion, and in-app)
 - DRI ownership table
@@ -120,7 +120,7 @@ Pre-built, editable templates for every framework in the product:
 - Hiring rubric (Phase 1 generalist)
 - Onboarding doc template
 
-### 5.8 AI guidance layer *(v2)*
+### AI guidance layer *(v2)*
 - Proactive nudges: "You have 6 team members — check your Phase 2 readiness"
 - Framework recommendations based on team profile
 - Decision log drafting: describe a decision in natural language, Groundwork structures it as a DACI
@@ -128,7 +128,7 @@ Pre-built, editable templates for every framework in the product:
 
 ---
 
-## 6. User flows
+## User flows
 
 ### Flow 1: Onboarding (new user)
 1. Sign up with email or Google
@@ -161,7 +161,7 @@ Pre-built, editable templates for every framework in the product:
 
 ---
 
-## 7. Screen inventory
+## Screen inventory
 
 | Screen | Route | Primary action |
 |---|---|---|
@@ -179,7 +179,7 @@ Pre-built, editable templates for every framework in the product:
 
 ---
 
-## 8. Technical considerations
+## Technical considerations
 
 ### Architecture (recommended for MVP)
 - **Frontend:** React (Next.js) — SSR for initial load speed, client-side for interactive views
@@ -208,7 +208,7 @@ checklist_items { id, team_id, phase, text, completed, completed_by }
 
 ---
 
-## 9. MVP scope
+## MVP scope
 
 The minimum viable product focuses on the founding-phase use case (Phase 1, 1–6 people). Everything a solo founder or tiny team needs in their first 90 days.
 
@@ -235,7 +235,7 @@ The minimum viable product focuses on the founding-phase use case (Phase 1, 1–
 
 ---
 
-## 10. Success metrics
+## Success metrics
 
 | Metric | Target (6 months post-launch) |
 |---|---|
@@ -250,7 +250,7 @@ The minimum viable product focuses on the founding-phase use case (Phase 1, 1–
 
 ---
 
-## 11. Pricing model (recommended)
+## Pricing model
 
 | Plan | Price | Seats | Features |
 |---|---|---|---|
@@ -263,7 +263,7 @@ The minimum viable product focuses on the founding-phase use case (Phase 1, 1–
 
 ---
 
-## 12. Build roadmap
+## Build roadmap
 
 | Milestone | Timeline | What ships |
 |---|---|---|
